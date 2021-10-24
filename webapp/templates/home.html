@@ -20,7 +20,7 @@
         };
         ( function ( d ) {
             var wf = d.createElement( 'script' ), s = d.scripts[ 0 ];
-            wf.src = '/static/js/webfont.js';
+            wf.src = '{% static "js/webfont.js" %}';
             wf.async = true;
             s.parentNode.insertBefore( wf, s );
         } )( document );
@@ -1440,7 +1440,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="images/demos/demo1/products/product17.jpg" alt="product"
+                                                    <img src="{% static 'images/demos/demo1/products/product17.jpg' %}" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
@@ -1449,8 +1449,8 @@
                                                     <a href="product.html">Fashion Handbag</a>
                                                 </h3>
                                                 <div class="product-price">
-                                                    <ins class="new-price">$53.99</ins><del
-                                                        class="old-price">$67.99</del>
+                                                    <ins class="new-price">$53.99</ins>
+                                                    <del class="old-price">$67.99</del>
                                                 </div>
                                                 <div class="ratings-container">
                                                     <div class="ratings-full">
@@ -1463,7 +1463,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="images/demos/demo1/products/product18.jpg" alt="product"
+                                                    <img src="{% static 'images/demos/demo1/products/product18.jpg' %}" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
@@ -1496,7 +1496,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="images/demos/demo1/products/product19.jpg" alt="product"
+                                                    <img src="{% static 'images/demos/demo1/products/product19.jpg' %}" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
@@ -1519,7 +1519,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="images/demos/demo1/products/product20.jpg" alt="product"
+                                                    <img src="{% static 'images/demos/demo1/products/product20.jpg' %}" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
@@ -1543,7 +1543,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="images/demos/demo1/products/product21.jpg" alt="product"
+                                                    <img src="{% static 'images/demos/demo1/products/product21.jpg' %}" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
@@ -1580,7 +1580,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3">
                             <a href="demo1.html" class="logo-footer">
-                                <img src="images/logo-footer.png" alt="logo-footer" width="154" height="43" />
+                                <img src="{% static 'images/logo-footer.png' %}" alt="logo-footer" width="154" height="43" />
                             </a>
                             <!-- End FooterLogo -->
                         </div>
@@ -1681,28 +1681,28 @@
                                 <h4 class="widget-title">Instagram</h4>
                                 <figure class="widget-body row">
                                     <div class="col-3">
-                                        <img src="images/instagram/01.jpg" alt="instagram 1" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/01.jpg' %}" alt="instagram 1" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/02.jpg" alt="instagram 2" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/02.jpg' %}" alt="instagram 2" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/03.jpg" alt="instagram 3" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/03.jpg' %}" alt="instagram 3" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/04.jpg" alt="instagram 4" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/04.jpg' %}" alt="instagram 4" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/05.jpg" alt="instagram 5" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/05.jpg' %}" alt="instagram 5" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/06.jpg" alt="instagram 6" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/06.jpg' %}" alt="instagram 6" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/07.jpg" alt="instagram 7" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/07.jpg' %}" alt="instagram 7" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="images/instagram/08.jpg" alt="instagram 8" width="64" height="64" />
+                                        <img src="{% static 'images/instagram/08.jpg' %}" alt="instagram 8" width="64" height="64" />
                                     </div>
                                 </figure>
                             </div>
@@ -1714,7 +1714,7 @@
                 <div class="footer-bottom">
                     <div class="footer-left">
                         <figure class="payment">
-                            <img src="images/payment.png" alt="payment" width="159" height="29" />
+                            <img src="{% static 'images/payment.png' %}" alt="payment" width="159" height="29" />
                         </figure>
                     </div>
                     <div class="footer-center">
