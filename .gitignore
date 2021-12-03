@@ -1,2 +1,4 @@
 .venv/
+webapp/frontend/__pycache__/
+webapp/product/__pycache__/
 webapp/webapp/__pycache__/
