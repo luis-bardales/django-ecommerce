@@ -1,0 +1,54 @@
+[
+    {
+        "model": "product.Product",
+        "pk": 1,
+        "fields": {
+            "sku": "UGG-BB-PUR-06",
+            "title": "Samsung Galaxy A12 (Blue, 64GB, 4GB RAM)",
+            "slug": "samsung-galaxy-a12-blue-64gb-4gb-ram",
+            "description": "Samsung Galaxy A12 (Blue, 64GB, 4GB RAM)",
+            "price": "500",
+            "created_at": "2021-12-31 17:37:34",
+            "updated_at": "2021-12-31 17:37:34"
+        }
+    },
+    {
+        "model": "product.Product",
+        "pk": 2,
+        "fields": {
+            "sku": "UGG-BB-PUR-07",
+            "title": "Redmi 8 64GB (Sapphire Blue, 4GB RAM)",
+            "slug": "redmi-8-64gb-sapphire-blue-4gb-ram",
+            "description": "Redmi 8 64GB (Sapphire Blue, 4GB RAM)",
+            "price": "450",
+            "created_at": "2021-12-31 17:37:34",
+            "updated_at": "2021-12-31 17:37:34"
+        }
+    },
+    {
+        "model": "product.Product",
+        "pk": 3,
+        "fields": {
+            "sku": "UGG-BB-PUR-08",
+            "title": "Realme C3 32GB (Blazing Red, 3GB RAM)",
+            "slug": "realme-c3-32gb-blazing-red-3gb-ram",
+            "description": "Realme C3 32GB (Blazing Red, 3GB RAM)",
+            "price": "800",
+            "created_at": "2021-12-31 17:37:34",
+            "updated_at": "2021-12-31 17:37:34"
+        }
+    },
+    {
+        "model": "product.Product",
+        "pk": 4,
+        "fields": {
+            "sku": "UGG-BB-PUR-09",
+            "title": "Vivo V21 5G (Dusk Blue, 128GB, 8GB RAM)",
+            "slug": "vivo-v21-5g-dusk-blue-128gb-8gb-ram",
+            "description": "Vivo V21 5G (Dusk Blue, 128GB, 8GB RAM)",
+            "price": "700",
+            "created_at": "2021-12-31 17:37:34",
+            "updated_at": "2021-12-31 17:37:34"
+        }
+    }
+]

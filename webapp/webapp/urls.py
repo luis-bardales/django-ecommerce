@@ -16,10 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from frontend import views as frontend_views
-from product import views as product_views
 
 urlpatterns = [
     path('', frontend_views.homepage),
-    path('seeders', product_views.seeders),
     path('admin/', admin.site.urls),
 ]

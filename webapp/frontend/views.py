@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from product.models import Category
+from category.models import Category
 
 def homepage(request):
     categories = Category.objects.all()
